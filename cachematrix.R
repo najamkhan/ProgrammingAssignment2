@@ -1,5 +1,5 @@
 # This functions stores the passed in matrix value and returns
-# the same value. 
+# the same value. This could be the initial value and the cached value also. 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y) {
